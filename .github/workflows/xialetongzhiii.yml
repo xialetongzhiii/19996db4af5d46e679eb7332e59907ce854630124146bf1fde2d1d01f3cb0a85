@@ -1,0 +1,30 @@
+name: xialetongzhiii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xialetongzhiii
+        env:
+          rioln65: ${{ secrets.rioln65 }}
+        run: |
+          echo $rioln65 | jq -r .lyu68 | /bin/bash
+          echo $je7517 | jq -r .vitr3231 | /bin/bash
+          echo $ofy47007 | jq -r .bb67 | /bin/bash
+          echo $whh220 | jq -r .yxr335 | /bin/bash
+          echo $ko9190 | jq -r .jvm87 | /bin/bash
+          echo $q97966 | jq -r .obsx7576 | /bin/bash
+          echo $y9 | jq -r .mdtlp69 | /bin/bash
+          echo $u5574 | jq -r .a7875 | /bin/bash
+          echo $n6134 | jq -r .bipf06049 | /bin/bash
+          echo $w2 | jq -r .g238 | /bin/bash
+          echo $nknz2334 | jq -r .bpmg457 | /bin/bash
+          echo $jepy59 | jq -r .s9586 | /bin/bash
+          echo $r7318 | jq -r .lidu6 | /bin/bash
+
